@@ -4,6 +4,12 @@
     <Filter Include="src">
       <UniqueIdentifier>{c9a9bb09-60e5-4481-9dad-24f771bbb5d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\OpenClTest">
+      <UniqueIdentifier>{0a0d48b5-c2ba-44f3-af14-683dc526afb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{5ee39520-224e-4c1c-8e4a-cac43d5bab7a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -12,10 +18,24 @@
     <ClCompile Include="Startup.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="OpenClTest.cpp">
+      <Filter>src\OpenClTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="OpenClTest.h">
+      <Filter>src\OpenClTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\Timer.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Calc.cl">
+      <Filter>src\OpenClTest</Filter>
+    </None>
   </ItemGroup>
 </Project>
